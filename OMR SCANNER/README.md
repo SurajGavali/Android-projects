@@ -9,5 +9,5 @@ We also want to support OMR Sheet of 50 and 100 questions with your support.
 
 
 
-## To start developing OMR SCANNER
+## To start OMR SCANNER
 Just import project in Android Studio and you are good to go :)
