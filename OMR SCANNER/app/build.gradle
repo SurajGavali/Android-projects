@@ -1,0 +1,57 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    defaultConfig {
+        applicationId "com.letssolvetogether.omr.main"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+
+        def (major, minor, patch) = VERSION_NAME.toLowerCase().tokenize('.')
+        (major, minor, patch) = [major, minor, patch].collect{it.toInteger()}
+        versionCode = (major * 10000) + (minor * 100) + patch
+
+        versionName VERSION_NAME
+        testInstrumentationRunner 'androidx.test.runner.AndroidJUnitRunner'
+        vectorDrawables.useSupportLibrary = true
+    }
+    buildTypes {
+        release {
+            minifyEnabled true
+            shrinkResources true
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    splits {
+        abi {
+            enable true
+            reset()
+            include 'arm64-v8a', "armeabi-v7a", "x86", "x86_64"
+            universalApk true
+        }
+    }
+
+    testOptions {
+        unitTests {
+            includeAndroidResources = true
+        }
+    }
+}
+
+dependencies {
+    implementation "androidx.room:room-runtime:$roomVersion"
+    annotationProcessor "androidx.room:room-compiler:$roomVersion"
+    implementation "androidx.lifecycle:lifecycle-viewmodel:$lifecycleVersion"
+    implementation "androidx.lifecycle:lifecycle-extensions:$lifecycleVersion"
+    implementation "androidx.appcompat:appcompat:$appcompat"
+    implementation "androidx.legacy:legacy-support-v4:$legacySupport"
+    implementation "com.google.android.material:material:$materialVersion"
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation "androidx.constraintlayout:constraintlayout:$constraintlayoutVersion"
+    testImplementation "junit:junit:$junitVersion"
+    testImplementation "org.robolectric:robolectric:$robolectricVersion"
+    implementation (name:"OpenCV-Android-$OPENCV_LIB_VERSION", ext:"aar")   //https://github.com/steveliles/opencv-android
+    implementation (name:"cameralibrary-release-$CAMERA_LIB_VERSION", ext:"aar")
+    implementation (name:"truetime-release-$TRUETIME_LIB_VERSION", ext:"aar")
+}

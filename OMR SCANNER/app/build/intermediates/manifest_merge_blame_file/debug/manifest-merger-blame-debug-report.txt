@@ -1,0 +1,137 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.letssolvetogether.omr.main"
+4    android:versionCode="20001"
+5    android:versionName="2.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="14"
+8-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.CAMERA" />
+11-->[:cameralibrary-release-1.0.1:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\2d563571f4b75cd85753c89ebb5124ed\jetified-cameralibrary-release-1.0.1\AndroidManifest.xml:21:5-65
+11-->[:cameralibrary-release-1.0.1:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\2d563571f4b75cd85753c89ebb5124ed\jetified-cameralibrary-release-1.0.1\AndroidManifest.xml:21:22-62
+12
+13    <uses-feature android:name="android.hardware.camera" />
+13-->[:cameralibrary-release-1.0.1:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\2d563571f4b75cd85753c89ebb5124ed\jetified-cameralibrary-release-1.0.1\AndroidManifest.xml:23:5-60
+13-->[:cameralibrary-release-1.0.1:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\2d563571f4b75cd85753c89ebb5124ed\jetified-cameralibrary-release-1.0.1\AndroidManifest.xml:23:19-57
+14    <uses-feature
+14-->[:cameralibrary-release-1.0.1:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\2d563571f4b75cd85753c89ebb5124ed\jetified-cameralibrary-release-1.0.1\AndroidManifest.xml:24:5-26:36
+15        android:name="android.hardware.camera.autofocus"
+15-->[:cameralibrary-release-1.0.1:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\2d563571f4b75cd85753c89ebb5124ed\jetified-cameralibrary-release-1.0.1\AndroidManifest.xml:25:9-57
+16        android:required="false" /> <!-- UDP permissions -->
+16-->[:cameralibrary-release-1.0.1:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\2d563571f4b75cd85753c89ebb5124ed\jetified-cameralibrary-release-1.0.1\AndroidManifest.xml:26:9-33
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:8:5-67
+17-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:8:22-64
+18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+18-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:9:5-79
+18-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:9:22-76
+19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- Detect boot to invalidate TrueTime -->
+19-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:10:5-76
+19-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:10:22-73
+20    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+20-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:13:5-81
+20-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:13:22-78
+21
+22    <application
+22-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:5:5-38:19
+23        android:allowBackup="true"
+23-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:6:9-35
+24        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+24-->[androidx.core:core:1.1.0] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\76f2b6439d16df60df3177021482ee5a\core-1.1.0\AndroidManifest.xml:24:18-86
+25        android:debuggable="true"
+26        android:icon="@mipmap/ic_launcher"
+26-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:7:9-43
+27        android:label="@string/app_name"
+27-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:8:9-41
+28        android:roundIcon="@mipmap/ic_launcher_round"
+28-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:9:9-54
+29        android:supportsRtl="true"
+29-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:10:9-35
+30        android:theme="@style/AppTheme" >
+30-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:11:9-40
+31        <activity
+31-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:12:9-14:48
+32            android:name="com.letssolvetogether.omr.home.ui.HomeActivity"
+32-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:13:13-74
+33            android:label="@string/app_name" />
+33-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:14:13-45
+34        <activity android:name="com.letssolvetogether.omr.omrkey.ui.OMRKeyActivity" />
+34-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:15:9-87
+34-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:15:19-84
+35        <activity
+35-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:16:9-21:54
+36            android:name="com.letssolvetogether.omr.camera.ui.CameraActivity"
+36-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:17:13-78
+37            android:configChanges="orientation|keyboardHidden|screenSize"
+37-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:18:13-74
+38            android:label="@string/app_name"
+38-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:19:13-45
+39            android:screenOrientation="portrait"
+39-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:20:13-49
+40            android:theme="@style/FullscreenTheme" />
+40-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:21:13-51
+41        <activity
+41-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:22:9-24:63
+42            android:name="com.letssolvetogether.omr.settings.SettingsActivity"
+42-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:23:13-79
+43            android:label="@string/title_activity_settings" />
+43-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:24:13-60
+44        <!--
+45        <activity android:name="com.letssolvetogether.omr.tutorial.TutorialActivity">
+46            <intent-filter>
+47                <action android:name="com.letssolvetogether.omr.tutorial.TutorialActivity"/>
+48                <category android:name="android.intent.category.DEFAULT" />
+49            </intent-filter>
+50        </activity>
+51        -->
+52        <activity android:name="com.letssolvetogether.omr.firstrun.FirstRunActivity" >
+52-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:31:9-37:20
+52-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:31:19-85
+53            <intent-filter>
+53-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:32:13-36:29
+54                <action android:name="android.intent.action.MAIN" />
+54-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:33:17-69
+54-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:33:25-66
+55
+56                <category android:name="android.intent.category.LAUNCHER" />
+56-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:35:17-77
+56-->D:\study\SEM 5\AI\AI_PROJECT_BOT\OMRChecker-master\app\src\main\AndroidManifest.xml:35:27-74
+57            </intent-filter>
+58        </activity>
+59
+60        <service
+60-->[androidx.room:room-runtime:2.2.5] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:25:9-28:40
+61            android:name="androidx.room.MultiInstanceInvalidationService"
+61-->[androidx.room:room-runtime:2.2.5] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:26:13-74
+62            android:directBootAware="true"
+62-->[androidx.room:room-runtime:2.2.5] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:27:13-43
+63            android:exported="false" /> <!-- Start the Service if applicable on boot -->
+63-->[androidx.room:room-runtime:2.2.5] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\28e9fb3eede996dd8d91f8bfd7ee4a2a\room-runtime-2.2.5\AndroidManifest.xml:28:13-37
+64        <receiver android:name="com.instacart.library.truetime.BootCompletedBroadcastReceiver" >
+64-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:18:9-22:20
+64-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:18:19-95
+65            <intent-filter>
+65-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:19:13-21:29
+66                <action android:name="android.intent.action.BOOT_COMPLETED" />
+66-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:20:17-79
+66-->[:truetime-release-1.0.0:] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\a980a51414c2fe63735da377ab7d0cc4\jetified-truetime-release-1.0.0\AndroidManifest.xml:20:25-76
+67            </intent-filter>
+68        </receiver>
+69
+70        <provider
+70-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+71            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+71-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+72            android:authorities="com.letssolvetogether.omr.main.lifecycle-process"
+72-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+73            android:exported="false"
+73-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+74            android:multiprocess="true" />
+74-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\suraj gavali\.gradle\caches\transforms-2\files-2.1\3af32d140be760521703c9060e27c1ae\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+75    </application>
+76
+77</manifest>

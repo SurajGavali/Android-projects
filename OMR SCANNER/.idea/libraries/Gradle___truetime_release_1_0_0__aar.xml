@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :truetime-release-1.0.0:@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a980a51414c2fe63735da377ab7d0cc4/jetified-truetime-release-1.0.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a980a51414c2fe63735da377ab7d0cc4/jetified-truetime-release-1.0.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a980a51414c2fe63735da377ab7d0cc4/jetified-truetime-release-1.0.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
